@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBNB TailwindCSS</title>
+
+    <link rel="stylesheet" href="../dist/app.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Barra de navegacion -->
+        <nav>
+            <div class="container p-6 md:flex md:justify-between text-center mx-auto">
+                <!-- Logo -->
+                <a href="#" class="text-4xl font-bold text-pink-500">AirBNB</a>
+
+                <!-- Menu de Navegacion -->
+                <ul class="md:flex md:space-x-8 my-6 md:my-0 py-2 px-6 font-bold text-gray-700">
+                    <li><a href="" class="">Inicio</a></li>
+                    <li><a href="" class="">Habitaciones</a></li>
+                    <li><a href="" class="">Ofertas</a></li>
+                    <li><a href="" class="">Sobre Nosotros</a></li>
+                    <li><a href="" class="">Contacto</a></li>
+                </ul>
+
+
+                <!-- Boton de Reserva -->
+                <a href="#reservar" class="bg-pink-500 text-white text-lg text-center rounded px-4 py-2 hover:bg-pink-800">Reservar</a>
+            </div>
+
+        </nav>
+
+        <!-- Hero -->
+        <div class="h-auto text-white" style="background-image: url(../img/bg.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class=" bg-black bg-opacity-60" >
+                <div class="container mx-auto py-60 text-center">
+                    <p class="font-bold text-sm uppercase">Experiencias</p>
+                    <p class="text-4xl font-bold my-4">Porque no viajas para dormir</p>
+                    <p class="text-lg mb-10 leading-none">Actividades memorables organizadas por habitantes locales, creadas para personas curiosas</p> 
+
+                    <a href="#" class="bg-white py-4 px-8 text-black font-bold uppercase text-xs rounded hover:bg-pink-800 hover:text-white">Mas Informacion</a>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Body -->
+    <div class="container mx-auto">
+        
+        <section class="mejores-experiencias mt-5 ">
+            <h2 class="text-3xl font-bold text-gray-800 mx-2 mb-3">Alojamientos en Nueva York</h2>
+
+            <div class="md:flex md:justify-between">
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/hospedaje1.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento de lujo en Manhattan</p>
+                        <p class="text-gray-600 text-sm">$3,500 MXN por persona</p>
+                    </div>
+                </div> <!-- Alojamiento-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/hospedaje2.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Estudio completo en el centro de Nueva York</p>
+                        <p class="text-gray-600 text-sm">$2,200 MXN por persona</p>
+                    </div>
+                </div> <!-- Alojamiento-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/hospedaje3.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Departamento - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento con elevador e increible vista</p>
+                        <p class="text-gray-600 text-sm">$3,200 MXN por persona</p>
+                    </div>
+                </div> <!-- Alojamiento-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/hospedaje4.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Ubicado en el corazon de Nueva York</p>
+                        <p class="text-gray-600 text-sm">$300 MXN por persona</p>
+                    </div>
+                </div> <!-- Alojamiento-->
+            </div>
+        </section>
+
+        <section class="mejores-experiencias mt-5 mb-5">
+            <h2 class="text-3xl font-bold text-gray-800 mx-2 mb-3">Experiencias en Nueva York</h2>
+
+            <div class="md:flex md:justify-between">
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/actividad1.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">clase de baile</p>
+                        <p class="text-base font-bold text-gray-800">Clase de Baile en Brooklyn</p>
+                        <p class="text-gray-600 text-sm">$1,200 MXN por persona</p>
+                        <p class=" text-gray-500 text-xs mt-1">Todos los idiomas</p>
+                    </div>
+                </div> <!-- Experiencia-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/actividad2.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento de lujo en Manhattan</p>
+                        <p class="text-gray-600 text-sm">$3,500 MXN por persona</p>
+                        <p class=" text-gray-500 text-xs mt-1">Todos los idiomas</p>
+                    </div>
+                </div> <!-- Experiencia-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/actividad3.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento de lujo en Manhattan</p>
+                        <p class="text-gray-600 text-sm">$3,500 MXN por persona</p>
+                        <p class=" text-gray-500 text-xs mt-1">Todos los idiomas</p>
+                    </div>
+                </div> <!-- Experiencia-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/actividad4.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento de lujo en Manhattan</p>
+                        <p class="text-gray-600 text-sm">$3,500 MXN por persona</p>
+                        <p class=" text-gray-500 text-xs mt-1">Todos los idiomas</p>
+                    </div>
+                </div> <!-- Experiencia-->
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="../img/actividad5.jpg" alt="imagen1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="text-xs font-bold uppercase text-gray-600">Habitacion sencilla - Nueva York</p>
+                        <p class="text-base font-bold text-gray-800">Departamento de lujo en Manhattan</p>
+                        <p class="text-gray-600 text-sm">$3,500 MXN por persona</p>
+                        <p class=" text-gray-500 text-xs mt-1">Todos los idiomas</p>
+                    </div>
+                </div> <!-- Experiencia-->
+            </div>
+        </section>
+
+        <section class="my-5">
+            <h2 class="font-bold text-3xl text-gray-800 mx-2">Destinos Destacados</h2>
+            <p class=" text-gray-700 mx-2 mb-3">Explora fantasticos alojamientos con todas las comodidades de tu hogar y mucho mas</p>
+            <div class="md:flex md:justify-between">
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="/img/mejores1.jpg" alt="img_mejor1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="font-bold text-pink-700">Mas de 800 alojamientos verificados</p>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa in corporis, reprehenderit ex iure necessitatibus numquam non doloribus</p>
+                    </div>
+                </div>
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="/img/mejores2.jpg" alt="img_mejor1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="font-bold text-pink-700">Mas de 800 alojamientos verificados</p>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa in corporis, reprehenderit ex iure </p>
+                    </div>
+                </div>
+
+                <div class="mx-2 mb-3 flex-1">
+                    <img src="/img/mejores3.jpg" alt="img_mejor1" class="mx-auto">
+                    <div class="mt-3 text-center md:text-left">
+                        <p class="font-bold text-pink-700">Mas de 800 alojamientos verificados</p>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, lorem ipsum dolore sit amet atmbien</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </div> <!--.container-->
+
+    <footer class="md:h-auto bg-pink-800 flex flex-col">
+
+        <div class="grid gap-x-2 gap-y-10 grid-cols-2  md:flex md:justify-around text-white container my-14 mx-auto">
+
+            <div class="mx-auto text-white col-start-1 col-end-3">
+                <div class="m-10 flex-1">
+                    <h1 class=" text-2xl font-bold">AirBNB</h1>
+                    <p class="mt-3 mb-8">Los mejores lugares del mundo a tu alcance, a solo un click para reservar y rentar!!</p>
+                    <!-- Redes Sociales -->
+                    <div class="flex space-x-8">
+                        <a href=""><img src="/img/facebook2.png" alt="facebook"></a>
+                        <a href=""><img src="/img/logotipo-de-instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="/img/twitter.png" alt="twitter"></a>
+                        <a href=""><img src="/img/youtube.png" alt="youtube"></a>
+                        <a href=""><img src="/img/pinterest.png" alt="pinterest"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="mx-auto">
+                <p class="font-bold mb-3">Solutions</p>
+                <nav class="flex flex-col ">
+                    <a href="#" class="py-2">Marketing</a>
+                    <a href="#" class="py-2">Analytics</a>
+                    <a href="#" class="py-2">Commerce</a>
+                    <a href="#" class="py-2">Insights</a>
+                </nav>
+                
+            </div>
+
+            <div class="mx-auto">
+                <p class="font-bold mb-3">Support</p>
+                <nav class="flex flex-col ">
+                    <a href="#" class="py-2">Pricing</a>
+                    <a href="#" class="py-2">Documentation</a>
+                    <a href="#" class="py-2">Guides</a>
+                    <a href="#" class="py-2">API Status</a>
+                </nav>
+            </div>
+
+            <div class="mx-auto">
+                <p class="font-bold mb-3">Company</p>
+                <nav class="flex flex-col ">
+                    <a href="#" class="py-2">About</a>
+                    <a href="#" class="py-2">Blog</a>
+                    <a href="#" class="py-2">Jobs</a>
+                    <a href="#" class="py-2">Press</a>
+                    <a href="#" class="py-2">Partners</a>
+                </nav>
+            </div>
+
+            <div class="mx-auto">
+                <p class="font-bold mb-3">Legal</p>
+                <nav class="flex flex-col ">
+                    <a href="#" class="py-2">Claim</a>
+                    <a href="#" class="py-2">Privacy</a>
+                    <a href="#" class="py-2">Terms</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="m-auto border-t-2 border-white w-1/2">
+            <p class="text-white my-6 text-center">© 2024 AirBNB, Inc. Todos los derechos reservados.</p> 
+        </div>
+
+    </footer>
+    
+    
+</body>
+</html>
